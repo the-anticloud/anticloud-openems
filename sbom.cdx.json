@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0619e4c3-650a-5324-8f89-b35437ff7817",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T12:14:26Z",
+    "component": {
+      "type": "application",
+      "name": "OPENEMS",
+      "version": "8b2c74eb168a",
+      "bom-ref": "pkg:generic/anticloud/OPENEMS@8b2c74eb168a",
+      "purl": "pkg:generic/anticloud/OPENEMS@8b2c74eb168a",
+      "licenses": [
+        {
+          "license": {
+            "id": "NOASSERTION"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "8b2c74eb168a2a5ea0c591fe2840459589d9422b"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/OpenEMS/openems"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
